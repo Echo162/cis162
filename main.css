@@ -1,0 +1,11 @@
+body {background-color:white; font-family: Arial, sans-serif;}
+
+header {background-color:yellow;}
+
+h1 {color:blue;}
+
+nav > ul {line-height:2em;list-style-type:disc;padding-left:5px;}
+
+section {background-color: yellow; width:60%;font-size:1.2em;}
+
+footer {background-color:blue;}
