@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="main.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>About</title>
+<style>
+* {
+  box-sizing: border-box;
+}
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: Blue;
+}
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+</style>
+</head>
+<body>
+<nav>
+  <ul>
+   <li><a href="index.html">Home</a></li>
+   <li><a href="about.html">About</a></li> 
+   <li><a href="/school/">School</a></li>
+  </ul>
+</nav>
+<section>
+<div class="row">
+  <div class="column" style="background-color:Navy;">
+    <img src = "https://scontent-lax3-1.xx.fbcdn.net/v/t1.6435-9/198655313_10158140019921398_8815729207437792870_n.jpg?_nc_cat=102&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=qTWOeBdFC0gAX9Dycce&_nc_ht=scontent-lax3-1.xx&oh=00_AT-QkS5iMOdFdoaW0lxSaLm08KdJVukKD6k68CWbBzs58g&oe=62475925" alt="CerritosCollege">
+  </div>
+  <div class="column" style="background-color:Skyblue;">
+    <h2>School</h2>
+     <p>
+	I am currently enrolled in Cerritos College and I am aiming to get my associates in computer science and transfer to a four year university
+     </p>
+  </div>
+</div>
+</section>
+<footer>
+<script>
+         var date = document.lastModified;
+         document.write("Last Modified: "+date);
+</script>
+<br>
+<a href="mailto:abc@example.com">Email Me!</a>
+</footer>
+
+</body>
+</html>
